@@ -18,23 +18,33 @@ The application follows a common pattern in console applications where a menu is
 System Features
 
 ✅ Add a Person - Implemented in the addPerson() method in Main.
+
 ✅ Enroll a Student - Implemented in the enrollStudentToSubject() method.
+
 ✅ Assign Subject to Teacher - Implemented in the assignSubjectToTeacher() method.
+
 ✅ Display All People - Implemented in the displayAllPeople() method.
+
 ✅ Display Student Subjects - Implemented in the displayStudentSubjects() method.
+
 ✅ Display Teacher Subjects - Implemented in the displayTeacherSubjects() method.
+
 ✅ Menu for User Interaction - Implemented in the displayMenu() method and main loop.
 
 OOP Concepts
 
 ✅ Encapsulation - All data members are private and accessed through getters/setters.
+
 ✅ Inheritance - Created a base Person class with Student, Teacher, and Staff subclasses.
+
 ✅ Polymorphism - Implemented through the abstract display() method in the Person class, which is overridden differently in each subclass.
+
 ✅ Abstraction - Created separate service classes to handle specific business logic.
 
 Additional Requirements
 
 ✅ Unique ID Numbers - The system checks if an ID already exists before adding a new person.
-✅ Valid Student ID for Enrollment - The system verifies that a student exists before enrolling them in a subject.
-✅ Valid Teacher ID for Assignment - The system verifies that a teacher exists before assigning a subject to them.
 
+✅ Valid Student ID for Enrollment - The system verifies that a student exists before enrolling them in a subject.
+
+✅ Valid Teacher ID for Assignment - The system verifies that a teacher exists before assigning a subject to them.
